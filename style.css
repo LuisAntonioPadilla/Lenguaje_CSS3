@@ -1,0 +1,40 @@
+.navBar {
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    color: grey;
+    text-align: center;
+}
+.parrafo1 {
+    text-align: center;
+    color: grey;
+}
+.abajo {
+    background-color: rgba(128, 128, 128, 0.136);
+    padding: 15px;
+    flex-direction: column;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.div1 .div2 .div3 .div4 .div5 .div6 {
+display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  flex-direction: column;
+}
+img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
